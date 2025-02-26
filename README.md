@@ -13,11 +13,17 @@ This project implements an authentication system using Flask and Redis. Addition
 📌 Task 1: Static Profile Page
 
 ✅ Implemented a static profile page using HTML + CSS.
+
 ✅ The page contains a heading, text, and an image.
+
 ✅ The design was chosen freely.
+
 ✅ The static page is served at the root ('/') and later redirected.
+
 ✅ Static resources (CSS, images) are properly served.
+
 ✅ Used `render_template()` for rendering.
+
 ✅ `/` redirects to `/login`, which further redirects to `/profile` after authentication.
 
 🚀 How to Run
