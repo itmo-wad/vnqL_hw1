@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container profile-container">
+        <h2>Welcome, {{ name }}!</h2>
+        <h3>This is your profile page.</h3>
+        <img src="{{ url_for('static', filename='profile.jpg') }}" alt="Profile Picture" class="profile-img">
+        <p>About me: I am a student of ITMO University.</p>
+    </div>
+</body>
+</html>
